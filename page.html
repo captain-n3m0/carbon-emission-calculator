@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carbon Footprint Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Carbon Footprint Calculator</h1>
+
+	<div id="form">
+		<label>How many miles do you drive per year?</label>
+		<input type="number" id="miles">
+
+		<label>How many kWh of electricity do you use per year?</label>
+		<input type="number" id="kwh">
+
+		<label>How many therms of natural gas do you use per year?</label>
+		<input type="number" id="therms">
+
+		<button onclick="calculateCarbonFootprint()">Calculate</button>
+	</div>
+
+	<div id="result"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>
